@@ -72,6 +72,14 @@ table {
 	padding: 0.1em;
 }
 
+th {
+	text-align: left;	
+}
+
+tbody {
+	vertical-align: top;
+}
+
 img.align-right {
   clear: right ;
   float: right ;
