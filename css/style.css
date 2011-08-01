@@ -89,15 +89,15 @@ tbody {
 	vertical-align: top;
 }
 
-img.align-right {
+/*img.align-right {
   clear: right ;
   float: right ;
   margin-left: 1em; 
-}
+}*/
 
  #navigation {
 	position: absolute;
-	top: 5em;
+	top: 5.2em;
 	left: 1em;
 	width: 20em;
 }
@@ -113,10 +113,10 @@ img.align-right {
 	display: block;
 	background: #090;
 	padding: 0 0.5em;
-	margin: 0 1em 1px 1em;
+	margin: 0 1em 1px 0;
 }
 
-#navigation ul li {
+#navigation li {
 	color: white;
 	font-weight: bold; 
 }		
@@ -129,7 +129,12 @@ img.align-right {
 }
 
 #content {
-	margin: 0 2em 0 21em;
+	margin: 0 0 0 21em;
 }
- 
+
+#content img {
+	clear: right;
+	float: right;
+	margin-left: 1em; 
+} 
   
