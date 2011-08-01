@@ -2,7 +2,6 @@ body {
 	font-family: arial, helvetica, sans-serif;
 	font-size: 80%;
 	color: black;
-	/*background-color: #ffc;*/
 	background-image: url(../images/background.png);
 	background-repeat: repeat-x;
 	margin: 1em;
@@ -89,11 +88,6 @@ tbody {
 	vertical-align: top;
 }
 
-/*img.align-right {
-  clear: right ;
-  float: right ;
-  margin-left: 1em; 
-}*/
 
  #navigation {
 	position: absolute;
@@ -112,13 +106,15 @@ tbody {
 	text-decoration: none;
 	display: block;
 	background: #090;
-	padding: 0 0.5em;
-	margin: 0 1em 1px 0;
+	padding: 0.5em 0.5em;
+	margin: 0 0 1px 0;
 }
 
 #navigation li {
 	color: white;
-	font-weight: bold; 
+	font-weight: bold;
+	margin: 0;
+	padding: 0; 
 }		
 #navigation a:visited {
 	color: #ccc;
