@@ -49,6 +49,7 @@ h3 {
 img {
 	border-style: solid;
 	border-width: 2px;
+	border-top-width: 0;
 	border-color: #0c0;
 }
 
@@ -64,12 +65,16 @@ strong {
 li {
 	color: #00c;
 	font-style: italic;
+	list-style-type: square; 
 }
 
 table.border {
 	/*background-color: #98dfff;*/
 	border-color: #0c0;
 	border-style: solid;
+	border-top-width: 0; 
+	background-image: url(../images/back-table.png);
+	background-repeat: repeat;
 	padding: 0.1em;
 }
 
