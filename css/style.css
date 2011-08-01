@@ -1,3 +1,5 @@
+/* estilo del cuerpo */
+
 body {
 	font-family: arial, helvetica, sans-serif;
 	font-size: 80%;
@@ -8,7 +10,7 @@ body {
 	padding: 0;
 }
 
-/* By the way, this is a comment */
+/* estilos varios (H#, p, table, tbody, th, strong)*/
 
 p {
 	line-height: 1.5em;
@@ -62,10 +64,6 @@ strong {
 	text-transform: uppercase;
 }
 
-li {
-	color: #00c;
-	font-style: italic; 
-}
 
 table.border {
 	/*background-color: #98dfff;*/
@@ -92,6 +90,7 @@ tbody {
 	vertical-align: top;
 }
 
+/* estilo del menu */
 
  #navigation {
 	position: absolute;
@@ -114,11 +113,18 @@ tbody {
 	margin: 0 0 1px 0;
 }
 
-#navigation li {
+#navigation ul a.actual {
+	color: #00f;
+	text-decoration: none;
+	display: block;
+	background: #0c0;
+	padding: 0.5em 0.5em;
+	margin: 0 0 1px 0;
+}
+
+#navigation ul li {
 	color: white;
 	font-weight: bold;
-	margin: 0;
-	padding: 0; 
 }		
 #navigation a:visited {
 	color: #ccc;
@@ -128,13 +134,48 @@ tbody {
 	background: #0c0;
 }
 
+/* estilo del contenido*/
+
 #content {
 	margin: 0 0 0 21em;
 }
+
+#content ul {
+	color: #00c;
+	font-style: italic;
+	list-style-type: square; 	
+}
+
 
 #content img {
 	clear: right;
 	float: right;
 	margin-left: 1em; 
 } 
-  
+
+/* estilo de la pagina de contactos*/
+
+#contact-content {
+	margin: 0 0 0 21em;
+}
+
+#contact-content ul {
+	padding: 1em;
+	list-style: none; 	
+}
+
+#contact-content ul li {
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+}
+
+#contact-content ul a {
+	text-decoration: none;
+	display: block;
+}
+
+#contact-content img {
+	width: 48px;
+	height: 48px;
+}
