@@ -102,6 +102,32 @@ img.align-right {
 	width: 20em;
 }
 
+#navigation ul {
+	padding: 0;
+	list-style: none;
+}
+		
+#navigation ul a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	background: #090;
+	padding: 0 0.5em;
+	margin: 0 1em 1px 1em;
+}
+
+#navigation ul li {
+	color: white;
+	font-weight: bold; 
+}		
+#navigation a:visited {
+	color: #ccc;
+}
+		
+#navigation a:hover {
+	background: #0c0;
+}
+
 #content {
 	margin: 0 2em 0 21em;
 }
