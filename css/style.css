@@ -48,12 +48,6 @@ h3 {
 	font-size: 1.25em;
 }
 
-img {
-	border-style: solid;
-	border-width: 2px;
-	border-top-width: 0;
-	border-color: #0c0;
-}
 
 a {
 	text-decoration: none;
@@ -149,7 +143,11 @@ tbody {
 #content img {
 	clear: right;
 	float: right;
-	margin-left: 1em; 
+	margin-left: 1em;
+	border-style: solid;
+	border-width: 2px;
+	border-top-width: 0;
+	border-color: #0c0; 
 } 
 
 /* estilo de la pagina de contactos*/
@@ -158,20 +156,21 @@ tbody {
 	margin: 0 0 0 21em;
 }
 
-#contact-content ul {
+#contact-content table {
 	padding: 1em;
 	list-style: none; 	
 }
 
-#contact-content ul li {
+#contact-content table td {
 	font-style: normal;
 	font-weight: bold;
 	text-align: center;
+	table-layout: auto;
 }
 
-#contact-content ul a {
+#contact-content table a {
 	text-decoration: none;
-	display: block;
+	display: table-cell;
 }
 
 #contact-content img {
