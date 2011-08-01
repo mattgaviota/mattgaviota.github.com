@@ -169,7 +169,10 @@ tbody {
 }
 
 #contact-content table a {
-	text-decoration: none;
+	display: block;
+}
+
+#contact-content table a:hover {
 	display: table-cell;
 }
 
