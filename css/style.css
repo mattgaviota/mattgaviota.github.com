@@ -18,7 +18,7 @@ p {
 
 h1 {
 	color: white;
-	background-color: #090;
+	background-color: black;
 	font-size: 2em;
 	margin: 0;
 	margin-bottom: 0.5em;
@@ -28,23 +28,33 @@ h1 {
 	letter-spacing: 0.5em;
 	border-bottom-style: solid;
 	border-bottom-width: 0.5em;
-	border-bottom-color: #0c0;
+	border-bottom-color: gray;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 a:visited {
+    text-decoration: none;
+    color: white;
 }
 
 h2 {
 	color: white;
-	background-color: #090;
+	background-color: black;
 	font-size: 1.5em;
 	margin: 0;
 	padding: 0.1em;
 	padding-left: 1em;
 	border-bottom-style: solid;
 	border-bottom-width: 0.5em;
-	border-bottom-color: #0c0;
+	border-bottom-color: gray;
 }
 
 h3 {
-	color: #999;
+	color: #666;
 	font-size: 1.25em;
 }
 
@@ -60,23 +70,21 @@ strong {
 
 
 table.border {
-	border-color: #0c0;
+	border-color: black;
 	border-style: solid;
-	border-top-width: 0; 
-	background-image: url(../images/back-table.png);
-	background-repeat: repeat;
+	border-top-width: 0;
 	padding: 0.1em;
 }
 
 th.line {
 	text-align: left;
-	color: #009;
+	color: black;
 	border-bottom-style: solid;	
 }
 
 th {
 	text-align: left;
-	color: #009;	
+	color: black;	
 }
 
 tbody {
@@ -101,16 +109,16 @@ tbody {
 	color: white;
 	text-decoration: none;
 	display: block;
-	background: #090;
+	background: black;
 	padding: 0.5em 0.5em;
 	margin: 0 0 1px 0;
 }
 
 #navigation ul a.actual {
-	color: #00f;
+	color: white;
 	text-decoration: none;
 	display: block;
-	background: #0c0;
+	background: darkred;
 	padding: 0.5em 0.5em;
 	margin: 0 0 1px 0;
 }
@@ -124,7 +132,7 @@ tbody {
 }
 		
 #navigation a:hover {
-	background: #0c0;
+	background: gray;
 }
 
 /* estilo del contenido*/
@@ -134,7 +142,7 @@ tbody {
 }
 
 #content ul {
-	color: #00c;
+	color: black;
 	font-style: italic;
 	list-style-type: square; 	
 }
@@ -147,7 +155,7 @@ tbody {
 	border-style: solid;
 	border-width: 2px;
 	border-top-width: 0;
-	border-color: #0c0; 
+	border-color: black; 
 } 
 
 /* estilo de la pagina de contactos*/
