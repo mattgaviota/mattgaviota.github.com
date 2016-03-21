@@ -1,0 +1,69 @@
+.header {
+    background-color: #f2f3f3;
+    color: #2f4152;
+    font-weight: bold !important;
+    padding: 20px;
+}
+.h1 {
+    font-weight: bold;
+    font-size: 5em;
+    margin-top: 10px;
+}
+.h2 {
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-top: 5px;
+}
+.about-skills {
+    background-color: #ffffff;
+    padding: 50px;
+}
+.title-about-skills{
+    background-image: url('../images/title-back.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding-left: 40px;
+}
+.title-about-skills:after {
+  background: #0fbef2;
+  content: "";
+  display: block;
+  height: 5px;
+  margin-left: 30%;
+  position: absolute;
+  top: 50%;
+  width: 89%;
+}
+.img-skills {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.exp-edu {
+    background-color: #2f4152;
+}
+.title-exp-edu {
+    background-color: #3699db;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 5px;
+}
+.title-exp-edu:after {
+  background: #0fbef2;
+  content: "";
+  display: block;
+  height: 5px;
+  margin-left: 30%;
+  position: absolute;
+  top: 50%;
+  width: 89%;
+}
+.active > a{
+    background-color: #2f4152 !important;
+}
