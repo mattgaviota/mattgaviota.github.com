@@ -1,0 +1,12 @@
+{
+  "name": "personal-web",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^1.0.0-alpha.4"
+  }
+}
