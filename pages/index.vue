@@ -1,3 +1,3 @@
 <template>
-  <h1>Work in Progress!</h1>
+  <h1>Work In Progress!</h1>
 </template>

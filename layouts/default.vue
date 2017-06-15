@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
+  <div class="container header">
     <div class="row">
-      <div class="container header">
-        <div class="col-md-12">
+      <div class="col-md-12">
+        <div class="container header">
           <h1 class="h1">MATIAS NOVOA</h1>
           <h2 class="h2">Software Developer</h2>
           <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
@@ -12,16 +12,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">Sobre mi</a>
+                  <router-link class="nav-link" to="/about">About me</router-link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#skills">Habilidades</a>
+                  <router-link class="nav-link" to="/skills">Skills</router-link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#experience">Experiencia</a>
+                  <router-link class="nav-link" to="/experience">Experience</router-link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#education">Educación</a>
+                  <router-link class="nav-link" to="/education">Education</router-link>
                 </li>
               </ul>
             </div>
@@ -29,6 +29,17 @@
         </div>
       </div>
     </div>
-    <nuxt/>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="container header">
+          <nuxt/>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
+<style media="screen">
+  .bg-inverse {
+    background-color: #2f4152 !important;
+  }
+</style>

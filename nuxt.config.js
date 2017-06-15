@@ -23,6 +23,14 @@ module.exports = {
         href: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css',
         integrity: 'sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ',
         crossorigin: 'anonymous'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/bootstrap.material-design/0.5.9/css/bootstrap-material-design.min.css'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css'
       }
     ],
     script: [
@@ -40,6 +48,12 @@ module.exports = {
         src: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js',
         integrity: 'sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn',
         crossorigin: 'anonymous'
+      },
+      {
+        src: 'https://cdn.jsdelivr.net/bootstrap.material-design/0.5.9/js/material.min.js'
+      },
+      {
+        src: 'https://use.fontawesome.com/9cd652b197.js'
       }
     ]
   },
